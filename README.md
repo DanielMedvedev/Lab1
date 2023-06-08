@@ -5,7 +5,7 @@ Medvediev Dmytro
 ## Installation
 1. Download it from the official Python website: https://www.python.org/downloads/
 
-2. Clone next repository: https://github.com/DanielMedvedev/Lab1.git
+2. Clone next repository: [https://github.com/DanielMedvedev/Lab1.git](https://github.com/DanielMedvedev/Lab1/tree/2.0)
 
 3. Navigate to the project directory
 
