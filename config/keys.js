@@ -6,14 +6,14 @@ const smtpConfig = {
     port: 465,
     secure: true, // use SSL
     auth: {
-        user: 'xyz@xyz.com', // Change it
-        pass: 'yourpwd' // Change it
+        user: 'danielmedvedev95@gmail.com', // Change it
+        pass: 'Takeonme01' // Change it
     }
 };
 
 // Registration
 const regMailOptions = {
-    from: 'ashis.raj@gmail.com',
+    from: 'danielmedvedev95@gmail.com',
     subject: 'Welcome to Node.js Blog App - Registration Successful!',
     text: 'Congratulations for the successful registration to our web application!',
     html: '<b>Congratulations for the successful registration to our web application!<b>'
@@ -21,7 +21,7 @@ const regMailOptions = {
 
 // Forgot Password
 const forgotMailOptions = {
-        from: 'xyz@xyz.com', // Change it
+        from: 'danielmedvedev95@gmail.com', // Change it
         subject: 'Node.js Blog App - Password Reset',
         text: 'You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\n' +
           'Please click on the following link, or paste this into your browser to complete the process:\n\n' +
@@ -31,7 +31,7 @@ const forgotMailOptions = {
 
 // Reset Password
 var resetMailOptions = {
-        from: 'xyz@xyz.com', // Change it
+        from: 'danielmedvedev95@gmail.com', // Change it
         subject: 'Node.js Blog App - Your password has been changed',
         text: 'Hello,\n\n' + 
           'This is a confirmation that the password for your account <email> has just been changed.\n'
