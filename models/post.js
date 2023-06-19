@@ -11,7 +11,7 @@ var PostSchema = new Schema({
     title: { type: String, required: true, index: true },
     description: { type: String },
     body: { type: String, required: true, exclude: true, allowOnUpdate: false },
-    author: { type: String, default: 'Anonymus' },
+    author: { type: String, default: 'Daniel' },
     comments: [{ type: CommentSchema, ref: 'Comment'}]
 }, {timestamps: true});
 

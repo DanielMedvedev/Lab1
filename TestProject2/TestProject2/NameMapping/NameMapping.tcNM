@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{ECA80D9F-1CF6-4A20-9B88-A1274C77B02A}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{7B678D2C-D666-408D-83D9-0A854EC65088}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{C3312B1E-85C0-4BDD-A40F-D905703C0796}">
+								<Image FileName="1349005139" Left="-8" Top="-8" Right="1288" Bottom="992" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogin" Key="{998B05F2-E786-45E0-AAAA-BC0DDE683F83}">
+								<Image FileName="1806301700" Left="0" Top="103" Right="1280" Bottom="984" />
+								<TypeInfo Item0="{19357D2F-184B-4526-BD81-E531AE0D75C3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost:8080/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formLoginForm" Key="{1710BCEB-7DF2-4BA3-9B60-8EA13E911794}">
+										<Image FileName="2124408097" Left="386" Top="274" Right="894" Bottom="522" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Remember Me&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;bv-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{7843E375-ED60-403D-8272-C51725A67BE4}">
+										<Image FileName="2124408097" Left="425" Top="274" Right="894" Bottom="323" />
+										<TypeInfo Item0="{4974E0B9-8637-4A9D-8CC7-6A6AB79CA573}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form/div//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{DE4B25C9-12FA-4105-A810-D54707E1A262}">
+										<Image FileName="-707823776" Left="425" Top="271" Right="894" Bottom="320" />
+										<TypeInfo Item0="{4974E0B9-8637-4A9D-8CC7-6A6AB79CA573}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLocalhost8080" Key="{600E4076-384D-42D4-835B-4F2B78D14133}">
+								<Image FileName="1806301700" Left="0" Top="103" Right="1280" Bottom="984" />
+								<TypeInfo Item0="{19357D2F-184B-4526-BD81-E531AE0D75C3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost:8080/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkAddNewPostBtn" Key="{2A604D08-666B-4E9B-A6E6-D83F0FD0C50A}">
+										<Image FileName="-1208316292" Left="527" Top="178" Right="602" Bottom="194" />
+										<Selectors>
+											<Selector>
+												<Value Value="#add_new_post_btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Add New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddNew" Key="{9A46B4D0-D232-483A-8162-B0C39E89B57D}">
+										<Image FileName="-1208316292" Left="527" Top="172" Right="602" Bottom="203" />
+										<TypeInfo Item0="{FB59650D-6E7A-4C48-BEBF-0A02BFB290FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Add New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;post&apos;)]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePost" Key="{7C516B44-CE15-431F-BE99-078C2F6FE52C}">
+								<Image FileName="1806301700" Left="0" Top="103" Right="1280" Bottom="984" />
+								<TypeInfo Item0="{19357D2F-184B-4526-BD81-E531AE0D75C3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost:8080/post" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formPostForm" Key="{3B7F89B5-C89D-4284-9479-4EB33F7E5791}">
+										<Image FileName="759093201" Left="391" Top="242" Right="1174" Bottom="540" />
+										<Selectors>
+											<Selector>
+												<Value Value="#post-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@role=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;bv-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTitle" Key="{90850890-8372-48CD-AA12-E313C8054B84}">
+										<Image FileName="759093201" Left="391" Top="242" Right="1174" Bottom="291" />
+										<TypeInfo Item0="{4974E0B9-8637-4A9D-8CC7-6A6AB79CA573}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#title" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;title&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDescription" Key="{DBB2298B-C9C8-4351-AFCE-382EE8AA7939}">
+										<Image FileName="2118864392" Left="391" Top="307" Right="1174" Bottom="356" />
+										<TypeInfo Item0="{4974E0B9-8637-4A9D-8CC7-6A6AB79CA573}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#description" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;description&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaBody" Key="{8880BD43-4293-4EA7-8C6D-DD001EB9DA90}">
+										<Image FileName="1099788129" Left="391" Top="372" Right="1174" Bottom="421" />
+										<TypeInfo Item0="{A8E700CA-4CFF-4C73-87EA-A6DC74586430}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#body" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@name=&apos;body&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;post-form&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputAuthor" Key="{C45314DA-5446-4EFA-A740-790DBCE4EEB2}">
+										<Image FileName="-1284590756" Left="391" Top="437" Right="1174" Bottom="486" />
+										<TypeInfo Item0="{A8E700CA-4CFF-4C73-87EA-A6DC74586430}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#author" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;author&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@title=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[4]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[4]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonAddPost" Key="{C29E2FB6-0A63-4544-9836-2E4285C86745}">
+										<Image FileName="-1735562309" Left="737" Top="502" Right="828" Bottom="540" />
+										<TypeInfo Item0="{FB59650D-6E7A-4C48-BEBF-0A02BFB290FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#post" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Add Post&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{7B678D2C-D666-408D-83D9-0A854EC65088}">
+			<Child Name="BrowserWindow" Owner="{C3312B1E-85C0-4BDD-A40F-D905703C0796}" />
+			<Child Name="pageLogin" Owner="{998B05F2-E786-45E0-AAAA-BC0DDE683F83}">
+				<Child Name="formLoginForm" Owner="{1710BCEB-7DF2-4BA3-9B60-8EA13E911794}">
+					<Child Name="textboxUsername" Owner="{7843E375-ED60-403D-8272-C51725A67BE4}" />
+					<Child Name="passwordboxPassword" Owner="{DE4B25C9-12FA-4105-A810-D54707E1A262}" />
+				</Child>
+			</Child>
+			<Child Name="pageLocalhost8080" Owner="{600E4076-384D-42D4-835B-4F2B78D14133}">
+				<Child Name="linkAddNewPostBtn" Owner="{2A604D08-666B-4E9B-A6E6-D83F0FD0C50A}">
+					<Child Name="buttonAddNew" Owner="{9A46B4D0-D232-483A-8162-B0C39E89B57D}" />
+				</Child>
+			</Child>
+			<Child Name="pagePost" Owner="{7C516B44-CE15-431F-BE99-078C2F6FE52C}">
+				<Child Name="formPostForm" Owner="{3B7F89B5-C89D-4284-9479-4EB33F7E5791}">
+					<Child Name="textboxTitle" Owner="{90850890-8372-48CD-AA12-E313C8054B84}" />
+					<Child Name="textboxDescription" Owner="{DBB2298B-C9C8-4351-AFCE-382EE8AA7939}" />
+					<Child Name="textareaBody" Owner="{8880BD43-4293-4EA7-8C6D-DD001EB9DA90}" />
+					<Child Name="emailinputAuthor" Owner="{C45314DA-5446-4EFA-A740-790DBCE4EEB2}" />
+					<Child Name="submitbuttonAddPost" Owner="{C29E2FB6-0A63-4544-9836-2E4285C86745}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
